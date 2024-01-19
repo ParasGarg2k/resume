@@ -1,0 +1,36 @@
+.container
+        {
+            margin :0px;
+            padding:0px;
+            /* border: 5px solid brown; */
+            
+        }
+
+        #box1{
+            margin :0px;
+            padding:0px;
+            width: 775px;
+        }
+        #box2{
+            margin :0px;
+            padding:5px;
+            margin-left :25%;
+            /* margin-right: 22.5%; */
+            /* border: 1px solid black; */
+            align-items: center;
+            justify-content: center;
+            @media screen and (max-width: 865px) {
+                margin-left:0px;
+            }
+            @media screen and (max-width: 915px) and (min-width: 865px){
+                margin-left:6.25%;
+            }
+            @media screen and (max-width: 1060px) and (min-width: 915px){
+                margin-left:12.5%;
+            }
+            @media screen and (min-width: 1060px) {
+                
+                margin-left :25%;
+            }
+
+        }
